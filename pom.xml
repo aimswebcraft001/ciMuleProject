@@ -30,6 +30,7 @@
 			<mule.password>mulePassword</mule.password>
 			<mule.environment>Sandbox</mule.environment>
 			<mule.redeploy>true</mule.redeploy>
+			<mule.home>/home/ubuntu/tools/mule-enterprise-standalone-3.9.1</mule.home>
 	</properties>
 
 	<build>
@@ -50,8 +51,9 @@
                 <version>2.1.1</version>
                 <configuration>
                     <deploymentType>${mule.deploymentType}</deploymentType>
+					<muleHome>${mule.home}</muleHome>
                      <!-- muleVersion is the runtime version as it appears on the CloudHub interface -->
-                    <muleVersion>3.8.5</muleVersion>
+                    <muleVersion>3.9.1</muleVersion>
                     <redeploy>${mule.redeploy}</redeploy>
 					<applicationName>${mule.application.name}</applicationName>
 					<application>${mule.application}</application>
