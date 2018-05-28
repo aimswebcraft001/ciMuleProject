@@ -30,7 +30,7 @@
 			<mule.password>mulePassword</mule.password>
 			<mule.environment>Sandbox</mule.environment>
 			<mule.redeploy>true</mule.redeploy>
-			<mule.home>/home/ubuntu/tools/mule-enterprise-standalone-3.9.1</mule.home>
+			<mule.home>/opt/mule/mule-enterprise-standalone-3.9.1</mule.home>
 	</properties>
 
 	<build>
