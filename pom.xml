@@ -52,8 +52,6 @@
                 <configuration>
                     <deploymentType>${mule.deploymentType}</deploymentType>
 					<muleHome>${mule.home}</muleHome>
-                     <!-- muleVersion is the runtime version as it appears on the CloudHub interface -->
-                    <muleVersion>3.9.1</muleVersion>
                     <redeploy>${mule.redeploy}</redeploy>
 					<applicationName>${mule.application.name}</applicationName>
 					<application>${mule.application}</application>
