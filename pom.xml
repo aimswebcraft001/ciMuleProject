@@ -23,7 +23,7 @@
 			<mule.test.timeoutSecs>60</mule.test.timeoutSecs>
 			<munit.version>1.2.1</munit.version>
 			<mule.munit.support.version>3.8.1</mule.munit.support.version>
-			<mule.deploymentType>cloudhub</mule.deploymentType>
+			<mule.deploymentType>standalone</mule.deploymentType>
 			<mule.application.name>helloworld</mule.application.name>
 			<mule.application>${project.build.directory}/${project.artifactId}-${project.version}.zip</mule.application>
 			<mule.username>muleUser</mule.username>
@@ -51,11 +51,8 @@
                 <configuration>
                     <deploymentType>${mule.deploymentType}</deploymentType>
                      <!-- muleVersion is the runtime version as it appears on the CloudHub interface -->
-                    <muleVersion>3.8.5</muleVersion>
-                    <username>${mule.username}</username>
-                    <password>${mule.password}</password>
+                    <muleVersion>3.9.1</muleVersion>
                     <redeploy>${mule.redeploy}</redeploy>
-                    <environment>${mule.environment}</environment>
 					<applicationName>${mule.application.name}</applicationName>
 					<application>${mule.application}</application>
                 </configuration>
