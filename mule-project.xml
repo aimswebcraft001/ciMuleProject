@@ -2,4 +2,5 @@
 <mule-project runtimeId="org.mule.tooling.server.3.8.3.ee" schemaVersion="3.5.0.0" xmlns="http://www.mulesoft.com/tooling/project">
     <name>helloworld_1.0-SNAPSHOT</name>
     <description/>
+    <muleExtension name="Munit" qualifier="org.mule.tooling.ui.contribution.munit"/>
 </mule-project>
