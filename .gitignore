@@ -1,6 +1,9 @@
 # Mule
 .mule
 
+# Maven
+target/
+
 # Compiled class file
 *.class
 
