@@ -12,7 +12,7 @@ http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/cor
     <munit:config name="munit" doc:name="Munit configuration"/>
 
     <spring:beans>
-        <spring:import resource="classpath:production-code.xml"/>
+        <spring:import resource="classpath:hello-world.xml"/>
     </spring:beans>
 
     <!-- exampleFlow2 Tests -->
