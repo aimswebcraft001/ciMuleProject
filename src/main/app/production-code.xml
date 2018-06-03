@@ -4,7 +4,7 @@
     <http:listener-config doc:name="HTTP Listener Configuration" host="0.0.0.0" name="HTTP_Listener_Configuration2" port="8083"/>
 
     <flow name="exampleFlow">
-        <http:listener allowedMethods="GET" config-ref="HTTP_Listener_Configuration" doc:name="HTTP" path="/"/>
+        <http:listener allowedMethods="GET" config-ref="HTTP_Listener_Configuration2" doc:name="HTTP" path="/example1"/>
         <set-payload doc:name="Set Original Payload" value="#[message.inboundProperties['http.query.params']['url_key']]"/>
 
         <flow-ref doc:name="exampleFlow2" name="exampleFlow2"/>
